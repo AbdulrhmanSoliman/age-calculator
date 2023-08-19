@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <div>
+          <label for="day">DAY</label>
+          <input type="number" id="day" placeholder="DD" maxlength="2" />
+          <span class="invaild dayerr"></span>
+        </div>
+        <div>
+          <label for="month">MONTH</label>
+          <input type="number" id="month" placeholder="MM" maxlength="2" />
+          <span class="invaild montherr"></span>
+        </div>
+        <div>
+          <label for="year">YEAR</label>
+          <input type="number" id="year" placeholder="YYYY" maxlength="4" />
+          <span class="invaild yearerr"></span>
+        </div>
+        <button type="submit">
+          <img src="./assets/images/icon-arrow.svg" aria-hidden="true" />
+        </button>
+      </form>
+      <hr />
+      <div class="years"><span class="num">- -</span>years</div>
+      <div class="months"><span class="num">- -</span>months</div>
+      <div class="days"><span class="num">- -</span>days</div>
+    </main>
+    <script src="./script/app.js"></script>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/AbdulrhmanSoliman"
+        target="_blank"
+        >Abdulrhman M.Soliman</a
+      >.
+    </footer>
+  </body>
+</html>
