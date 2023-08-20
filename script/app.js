@@ -98,5 +98,6 @@ allInputs.forEach((e) => {
       e.style.color = "hsl(0, 1%, 44%)";
     });
     e.style.borderColor = "hsl(259, 100%, 65%)";
+    e.previousElementSibling.style.color = "hsl(259, 100%, 65%)";
   };
 });
